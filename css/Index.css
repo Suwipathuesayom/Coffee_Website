@@ -1,0 +1,155 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container h1 {
+    font-family: 'Kanit', sans-serif;
+}
+
+.container p {
+    color: rgb(255, 255, 255);
+    font-family: 'Kanit', sans-serif;
+}
+
+.navbar .nav-link {
+    font-family: 'Kanit', sans-serif;
+    font-size: 16.5px;
+    text-transform: uppercase;
+    padding-left: 16px!important;
+    padding-right: 16px!important;
+    margin-right: 30px;
+}
+
+.content h6 {
+    color: rgb(236, 32, 32);
+    cursor: pointer;
+}
+
+.product,
+h1 {
+    color: rgb(41, 202, 62);
+}
+
+.content button {
+    margin-top: 15px;
+    color: rgb(236, 32, 32);
+    font-family: 'Kanit', sans-serif;
+    cursor: pointer;
+}
+
+.img-fluid:hover {
+    background-color: burlywood;
+}
+
+.service h5,
+p,
+a {
+    font-family: 'Kanit', sans-serif;
+}
+
+.service h5 {
+    color: rgb(231, 44, 44);
+}
+
+.service {
+    background-color: rgb(241, 240, 240);
+}
+
+.navbar-toggler {
+    outline: none;
+}
+
+.bg-black {
+    background: #000;
+}
+
+
+/*===========Slide=======*/
+
+.carousel-item {
+    height: 600px;
+}
+
+.carousel-image-1 {
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .4)), url("https://images.unsplash.com/photo-1576470331852-65ef7a0243a8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+    background-size: cover;
+}
+
+.carousel-image-2 {
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .4)), url("https://images.unsplash.com/photo-1576470331833-2e71f9177f25?ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80");
+    background-size: cover;
+}
+
+.carousel-image-3 {
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .4)), url("https://images.unsplash.com/photo-1485365435483-337eb45ec196?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+    background-size: cover;
+}
+
+.title-color {
+    color: aliceblue;
+}
+
+.carousel-inner a {
+    font-family: 'Kanit', sans-serif;
+    background: #000;
+    color: rgb(240, 237, 39);
+}
+
+.carousel-inner a:hover {
+    font-family: 'Kanit', sans-serif;
+    color: rgb(180, 190, 131);
+}
+
+@keyframes slide-btn {
+    16% {
+        transform: translateY(8px);
+    }
+    33% {
+        transform: translateY(-6px);
+    }
+    50% {
+        transform: translateY(4px);
+    }
+    65% {
+        transform: translateY(-2px);
+    }
+    85% {
+        transform: translateY(1px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.slide-btn {
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0, );
+}
+
+.slide-btn:hover,
+.slide-btn:focus,
+.slide-btn:active {
+    animation-name: slide-btn;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}
+
+
+/*end of slider*/
+
+
+/*================Service section==========*/
+
+.service-icon {
+    display: inline-block;
+    font-size: 32px;
+    margin-bottom: 16px;
+    color: #000;
+    padding: 8px 16px;
+}
+
+
+/*====end   Service section===============*/
