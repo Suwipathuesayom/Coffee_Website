@@ -25,8 +25,8 @@ body {
 }
 
 .content button {
-    margin-top: 15px;
-    color: rgb(236, 32, 32);
+    margin-top: 2rem;
+    color: rgb(255, 255, 255);
     font-family: 'Kanit', sans-serif;
     cursor: pointer;
 }
@@ -34,7 +34,7 @@ body {
 .product,
 h1 {
     font-family: 'Kanit', sans-serif;
-    color: rgb(202, 41, 41);
+    color: rgb(18, 125, 27);
 }
 
 .img-fluid:hover {
